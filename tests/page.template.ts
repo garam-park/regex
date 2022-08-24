@@ -5,7 +5,7 @@ describe("pagex", () => {
   const source = "";
 
   test("case 1", () => {
-    const reg_exp = /./;
+    const reg_exp = /./g;
 
     const match = source.match(reg_exp);
     expect(match!).toEqual([]);
