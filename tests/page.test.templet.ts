@@ -7,6 +7,6 @@ describe("pagex", () => {
   test("case 1", () => {
     const reg_exp = /./;
 
-    expect(reg_exp.test(source)).toBe(true);
+    const match = source.match(reg_exp);
   });
 });
