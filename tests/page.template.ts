@@ -8,5 +8,6 @@ describe("pagex", () => {
     const reg_exp = /./;
 
     const match = source.match(reg_exp);
+    expect(match!).toEqual([]);
   });
 });
